@@ -1,0 +1,100 @@
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+*{
+    font-family: "Inter Tight";
+}
+
+#header{
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+sub{
+    font-size: 10px;
+    font-weight: 800;
+    vertical-align: baseline;
+}
+
+#left-desc{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#left-desc p{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 50px 140px;
+}
+#scroll{
+    margin: 0 0 20px 140px;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: black;
+    text-decoration-color: black;
+
+}
+
+#right-video{
+    width: 50%;
+}
+
+#Logo a{
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: dashed;
+    text-decoration-color: white;
+    text-decoration-line: underline;
+}
+
+#Logo{
+    width: 35%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 20px;
+}
+
+#arrow145{
+    width: 60px;
+    height: 60px;
+}
+
+#startProject{
+    height: 60px;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+#gap{
+    width: 40px;
+}
+
+#navi{
+    width: 65%;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+}
+
+#navi a{
+    margin: 0 15px;
+    font-size: 20px;
+}
