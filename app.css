@@ -7,12 +7,14 @@
     font-family: "Inter Tight";
 }
 
+
 #header{
     width: auto;
     height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 sub{
@@ -29,11 +31,29 @@ sub{
     justify-content: end;
 }
 
+#firstPart{
+    display: flex;
+}
+
+#Video{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+#transbox {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    opacity: 0.2;
+  }
+
 #left-desc p{
     font-size: 30px;
     font-weight: 300;
     margin: 50px 140px;
 }
+
 #scroll{
     margin: 0 0 20px 140px;
     font-size: 20px;
@@ -47,6 +67,9 @@ sub{
 
 #right-video{
     width: 50%;
+    height: 80vh;
+    background-color: black;
+    margin-right: 10px;
 }
 
 #Logo a{
@@ -64,6 +87,25 @@ sub{
     justify-content: left;
     align-items: center;
     margin: 0 20px;
+}
+
+#nextPartText{
+    text-align: center;
+    margin: 40px 60px;
+}
+
+#nextPartText p{
+    font-family: "Noto Serif";
+    font-size: 60px;
+    font-weight: 200;
+}
+
+#nextPartText p a{
+    font-size: 40px;
+    border: medium solid;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin-right: 15px;
 }
 
 #arrow145{
@@ -97,4 +139,118 @@ sub{
 #navi a{
     margin: 0 15px;
     font-size: 20px;
+}
+
+
+.wrapper { 
+    max-width: 100%; 
+    width: 100%; 
+    position: relative; 
+  
+} 
+  
+.wrapper i { 
+    height: 50px; 
+    width: 50px; 
+    background: rgb(118, 233, 118); 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 50%; 
+    font-size: 1.25 rem; 
+    transform: translateY(-50%); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23); 
+  
+} 
+  
+.wrapper i:first-child { 
+    left: -22px; 
+  
+} 
+  
+.wrapper i:last-child { 
+    right: -22px; 
+  
+} 
+  
+.wrapper .carousel { 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: calc((100% / 3) - 12px); 
+    gap: 16px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth; 
+    scrollbar-width: 0; 
+} 
+  
+.carousel::-webkit-scrollbar { 
+    display: none; 
+} 
+  
+.carousel :where(.card, .img) { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  
+.carousel.dragging { 
+    scroll-snap-type: none; 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.no-transition { 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.dragging .card { 
+    cursor: grab; 
+    user-select: none; 
+} 
+  
+.carousel .card { 
+    scroll-snap-align: start; 
+    height: 500px; 
+    list-style: none; 
+    background: #fff; 
+    border-radius: 8px; 
+    display: flex; 
+    cursor: pointer; 
+    width: 100%; 
+    padding-bottom: 15px; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+} 
+  
+.card .img { 
+    background: green; 
+    width: 500px; 
+    height: 500px; 
+  
+} 
+  
+.card .img img { 
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+    border: 4px solid #fff; 
+} 
+  
+.card h2 { 
+    font-family: "Noto Serif";
+    font-weight: 200; 
+    font-size: 1.55rem; 
+    margin: 30px 0 5px; 
+} 
+  
+
+
+
+#nextPartCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
