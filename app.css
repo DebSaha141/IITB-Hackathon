@@ -7,6 +7,29 @@
     font-family: "Inter Tight";
 }
 
+#WORK{
+    height: 300px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 200px;
+    padding-bottom: 40px;
+}
+
+#WORK p{
+    font-weight: 200;
+    font-size: 300px;
+}
+
+#WORK button{
+    margin: 0 0 0 500px;
+    font-size: 15px;
+    height: 60px;
+    width: 120px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+}
 
 #header{
     width: auto;
@@ -15,6 +38,10 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 30px;
+}
+
+#nextPartCarousel{
+    height: 600px;
 }
 
 sub{
